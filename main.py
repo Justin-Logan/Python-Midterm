@@ -1,5 +1,10 @@
+import user, menu
+
+
 def main():
-    print("Hello, World!")
+    _user = user.User()
+    menu.Menu(_user)
+
 
 if __name__ == "__main__":
     main()
